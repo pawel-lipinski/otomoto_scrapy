@@ -1,0 +1,12 @@
+# .gitignore
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.vscode
+
+# Scraper output
+batches_otomoto/
+checkpoint_otomoto.txt
+*.csv
+logs/
