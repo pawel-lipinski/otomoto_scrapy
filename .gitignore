@@ -1,6 +1,7 @@
 # .gitignore
 __pycache__/
 *.pyc
+.gitignore
 .env
 .DS_Store
 .vscode
