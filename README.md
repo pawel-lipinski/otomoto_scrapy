@@ -8,9 +8,7 @@ This project uses a **three-tier architecture** designed for stability, resilien
 
 The system is divided into three distinct scripts:
 
-----
-----
-----
+
 1.  **`run_continuous_otomoto_v1.py` (Supervisor)**
     > The main entry point. It runs an infinite loop to ensure scraping continues even if a batch fails. It also manages delays between batches and monitors the exit codes of the Manager process.
 
