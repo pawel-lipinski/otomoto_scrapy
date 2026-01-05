@@ -33,7 +33,7 @@ The system is divided into three distinct scripts:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/otomoto_scrapy.git
+    git clone https://github.com/pawel-lipinskie/otomoto_scrapy.git
     cd otomoto_scrapy
     ```
 
