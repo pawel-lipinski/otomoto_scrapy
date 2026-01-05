@@ -16,7 +16,7 @@ The system is divided into three distinct scripts:
     > Manages the state of the scraping job. It reads and writes the last scraped page to `checkpoint_otomoto.txt`, calculates the page range for the next batch, and launches the Scrapy spider. It also handles ban detection.
 
 3.  **`otomoto_spider_batch_v1.py` (Worker)**
-    > The Scrapy spider that performs the actual scraping. It extracts car details (Mileage, Price, VIN, etc.), fetches phone numbers via AJAX requests, and rotates user agents to avoid detection.
+    > The Scrapy spider that performs the actual scraping. It extracts car details (Mileage, Price, model, brand etc.), fetches phone numbers via AJAX requests, and rotates user agents to avoid detection.
 
 ## How It Works
 
@@ -32,6 +32,10 @@ The system is divided into three distinct scripts:
 ## Installation
 
 1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/otomoto-scraper.git
+    cd otomoto-scraper
+    ```
 
 2.  **Set up a Virtual Environment** (Recommended)
     ```bash
