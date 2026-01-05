@@ -33,8 +33,8 @@ The system is divided into three distinct scripts:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/otomoto-scraper.git
-    cd otomoto-scraper
+    git clone https://github.com/your-username/otomoto_scrapy.git
+    cd otomoto_scrapy
     ```
 
 2.  **Set up a Virtual Environment** (Recommended)
